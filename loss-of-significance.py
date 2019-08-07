@@ -67,7 +67,7 @@ def Comparacion(a,b):
         nuevo.append(c)
     comparacion=[]
     for k in range(9):
-        d=nuevo[k]-a[k]
+        d=nuevo[k]-a[k]/nuevo[k]
         comparacion.append(d)
     return comparacion
 
